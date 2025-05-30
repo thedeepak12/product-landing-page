@@ -48,3 +48,38 @@ a {
     color: white;
     text-decoration: none;
 }
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+#hero input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#hero input[type="submit"] {
+    max-width: 150px;
+    width: 150px;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#hero input[type="submit"]:hover {
+    background-color: hsl(217, 91%, 49%);
+}
