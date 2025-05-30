@@ -87,12 +87,17 @@ a {
 
 #hero input[type="submit"]:hover {
     background-color: hsl(217, 91%, 49%);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #features {
     margin-top: 30px;
-    margin-right: 150px;
-    margin-left: 100px;
 }
 
 #features .icon {
@@ -125,4 +130,62 @@ a {
 #how-it-works iframe {
     max-width: 560px;
     width: 100%;
+}
+
+#pricing {
+    width: 1000px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.product .level {
+    background-color: #00060e;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #ffffff;
+}
+
+.product h2 {
+    margin-top: 15px;
+}
+
+.product ol {
+    margin: 15px 0;
+}
+
+.product ol li {
+    padding: 5px 0;
+}
+
+.product button {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    border: 0;
+    margin: 15px 0;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: hsl(217, 91%, 49%);
+    transition: background-color 1s;
 }
