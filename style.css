@@ -25,7 +25,7 @@ body {
 }
 
 #header-img {
-    width: 7vw;
+    width: 5vw;
 }
 
 nav {
@@ -82,4 +82,31 @@ a {
 
 #hero input[type="submit"]:hover {
     background-color: hsl(217, 91%, 49%);
+}
+
+#features {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+.grid {
+    display: flex;
 }
