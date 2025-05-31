@@ -215,3 +215,147 @@ footer span {
     font-size: 0.9em;
     color: hsl(0, 0%, 43%);
 }
+
+@media (max-width: 900px) {
+    #header {
+        flex-direction: column;
+        min-height: 100px;
+        padding: 10px;
+    }
+
+    #header-img {
+        width: 10vw;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    #hero {
+        margin-top: 250px;
+        height: auto;
+        padding: 20px;
+    }
+
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+
+    #features .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #features .icon {
+        width: 100%;
+        height: 100px;
+    }
+
+    #features .desc {
+        width: 100%;
+        text-align: center;
+    }
+
+    #pricing {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    #how-it-works iframe {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #header {
+        padding: 5px;
+    }
+
+    #header-img {
+        width: 15vw;
+    }
+
+    nav ul li {
+        padding: 8px 0;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    #hero {
+        margin-top: 240px;
+        padding: 10px;
+    }
+
+    #hero h2 {
+        font-size: 1.2rem;
+    }
+
+    #hero input[type="email"] {
+        max-width: 200px;
+    }
+
+    #hero input[type="submit"] {
+        width: 120px;
+        font-size: 0.9rem;
+    }
+
+    #features {
+        margin-top: 20px;
+    }
+
+    #features .icon {
+        height: 80px;
+    }
+
+    #features .desc {
+        height: auto;
+        padding: 10px;
+    }
+
+    #how-it-works {
+        margin-top: 30px;
+    }
+
+    #pricing {
+        margin-top: 40px;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    .product button {
+        width: 150px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li {
+        padding: 5px 0;
+    }
+
+    footer span {
+        justify-content: center;
+        text-align: center;
+    }
+}
